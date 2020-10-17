@@ -10,6 +10,5 @@ func main(){
 }
 
 func GoServer(w http.ResponseWriter, r *http.Request){
-  fmt.Fprintf(w, "Hello, this is a sample web server build using GO")
+  fmt.Fprintf(w, "Hello, this is a sample web server built using GO")
 }
-
